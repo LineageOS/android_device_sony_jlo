@@ -23,6 +23,9 @@ WIFI_DRIVER_FW_PATH_PARAM        := "/sys/module/bcmdhd/parameters/firmware_path
 
 BOARD_LEGACY_NL80211_STA_EVENTS  := true
 
+#Camera
+COMMON_GLOBAL_CFLAGS += -DQCOM_SONY_NEW_CAMERA
+
 # Bluetooth
 BOARD_HAVE_BLUETOOTH_BCM := true
 TARGET_NEEDS_BLUETOOTH_INIT_DELAY := true
